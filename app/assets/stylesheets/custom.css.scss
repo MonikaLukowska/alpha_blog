@@ -1,5 +1,55 @@
 @import 'bootstrap/dist/css/bootstrap';
 
-.bg-light{
-  background-color: #a55 !important;
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+.navbar{
+  background-color: #273746  !important;
+}
+
+.nav-link{
+  color:#fff !important;
+}
+.navbar-light .navbar-brand{
+  color:#fff;
+  font-size: 1.7em;
+  letter-spacing:-1px;
+  font-weight: bold;
+  text-transform:uppercase;
+}
+
+.container{
+
+  &--home{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%)
+
+  }
+}
+
+.jumbotron{
+  background-image:asset-url('alpha_blog_bgc.jpg');
+  filter:brightness(90%);
+  background-size:cover;
+  background-repeat:no-repeat;
+ 
+}
+.form{
+  background-color:  #162E33;
+}
+.green{
+  color:#162E33;
 }
