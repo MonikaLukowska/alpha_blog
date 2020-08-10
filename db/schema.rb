@@ -10,12 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2020_07_26_192002) do
 
   create_table "article_categories", force: :cascade do |t|
     t.integer "article_id"
     t.integer "category_id"
   end
+=======
+ActiveRecord::Schema.define(version: 2020_07_24_152152) do
+>>>>>>> 84b142e2bd19d2435e3b97a24318422dca21b2e9
 
   create_table "articles", force: :cascade do |t|
     t.string "title"
